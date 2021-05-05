@@ -4,7 +4,7 @@ import boto3
 pipeline = boto3.client('codepipeline')
 
 
-# Create SQS client
+# Create SQS client test
 sqs = boto3.client('sqs')
 queue_url = 'https://sqs.us-east-1.amazonaws.com/806175290270/DayliMembers'
 
